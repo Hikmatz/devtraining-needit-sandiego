@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Set the meaasge verbosity forlogging for the Needit application.....</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_58872_needit.logging.verbosity</name>
+        <read_roles/>
+        <suffix>x_58872_needit.logging.verbosity</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 20:59:09</sys_created_on>
+        <sys_id>d98a5add97641110e37e9300f153af1a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_58872_needit.logging.verbosity</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_d98a5add97641110e37e9300f153af1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 21:03:00</sys_updated_on>
+        <type>string</type>
+        <value>debug</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=d98a5add97641110e37e9300f153af1a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>3d379370db50b7c049eac5970596199d</instance_id>
+        <instance_name>dev75690</instance_name>
+        <name>sys_properties_d98a5add97641110e37e9300f153af1a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Set the meaasge verbosity forlogging for the Needit application.....</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_58872_needit.logging.verbosity</name><read_roles/><suffix>x_58872_needit.logging.verbosity</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-06 20:59:09</sys_created_on><sys_id>d98a5add97641110e37e9300f153af1a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_58872_needit.logging.verbosity</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_properties_d98a5add97641110e37e9300f153af1a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-06 21:03:00</sys_updated_on><type>string</type><value>debug</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=d98a5add97641110e37e9300f153af1a"/></record_update>]]></payload>
+        <payload_hash>-219213840</payload_hash>
+        <record_name>x_58872_needit.logging.verbosity</record_name>
+        <reverted_from/>
+        <source>9171953b97181110e37e9300f153af66</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 21:03:00</sys_created_on>
+        <sys_id>f5cc1a5197a41110e37e9300f153af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d552c50a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 21:03:00</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>fdcc1a51eea411107214a0d17542027e</update_guid>
+        <update_guid_history>fdcc1a51eea411107214a0d17542027e:-219213840,a5eb1e117ca411104567ef1c7a845d3a:-651654800</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 21:05:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>368884b5c147473cb5751f76295ed904</sys_id>
+        <sys_metadata>d98a5add97641110e37e9300f153af1a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.logging.verbosity</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_properties_d98a5add97641110e37e9300f153af1a</sys_update_name>
+        <sys_update_version display_value="sys_properties_d98a5add97641110e37e9300f153af1a">f5cc1a5197a41110e37e9300f153af7f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 21:05:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
