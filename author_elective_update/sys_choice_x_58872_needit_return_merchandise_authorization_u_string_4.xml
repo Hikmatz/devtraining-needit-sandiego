@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_string_4" table="x_58872_needit_return_merchandise_authorization" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_string_4</element>
+            <name>x_58872_needit_return_merchandise_authorization</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 17:11:09</sys_created_on>
+            <sys_id>92fda17997341110e37e9300f153af64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_string_4</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_x_58872_needit_return_merchandise_authorization_u_string_4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-20 17:11:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wrong address</label>
+            <language>en</language>
+            <name>x_58872_needit_return_merchandise_authorization</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 17:11:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1efda17997341110e37e9300f153af63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-20 17:11:09</sys_updated_on>
+            <value>wrong address</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incorrect asset</label>
+            <language>en</language>
+            <name>x_58872_needit_return_merchandise_authorization</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 17:11:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5efda17997341110e37e9300f153af65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-20 17:11:09</sys_updated_on>
+            <value>incorrect asset</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dead on arrival</label>
+            <language>en</language>
+            <name>x_58872_needit_return_merchandise_authorization</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 17:11:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dafda17997341110e37e9300f153af66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-20 17:11:09</sys_updated_on>
+            <value>dead on arrival</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Damaged</label>
+            <language>en</language>
+            <name>x_58872_needit_return_merchandise_authorization</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 17:11:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5afda17997341110e37e9300f153af67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-20 17:11:09</sys_updated_on>
+            <value>damaged</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_58872_needit_return_merchandise_authorization</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 17:11:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6fda17997341110e37e9300f153af68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-20 17:11:09</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

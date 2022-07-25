@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Return Merchandise Authorization" max_length="40" name="x_58872_needit_return_merchandise_authorization" sizeclass="1" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Submitted Date" max_length="40" name="u_glide_date_8" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Vendor" max_length="32" name="u_reference_1" reference="x_58872_needit_needit" type="reference"/>
+        <element attributes="encode_utf8=false" label="Asset Returned" max_length="32" name="u_reference_10" reference="alm_hardware" type="reference"/>
+        <element attributes="encode_utf8=false" label="Outbound Courier" max_length="32" name="u_reference_11" reference="x_58872_needit_needit" type="reference"/>
+        <element attributes="encode_utf8=false" label="Inbound Courier" max_length="32" name="u_reference_12" reference="x_58872_needit_needit" type="reference"/>
+        <element attributes="encode_utf8=false" label="Incident" max_length="32" name="u_reference_3" reference="incident" type="reference"/>
+        <element attributes="encode_utf8=false" label="Asset Sent" max_length="32" name="u_reference_9" reference="alm_hardware" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Outbound Tracking Number" max_length="40" name="u_string_13" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Inbound Tracking Number" max_length="40" name="u_string_14" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor issued RMA number" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="RMA Reason" max_length="40" name="u_string_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Wrong address" sequence="0" value="wrong address"/>
+                <element inactive_on_update="false" label="Incorrect asset" sequence="1" value="incorrect asset"/>
+                <element inactive_on_update="false" label="Dead on arrival" sequence="2" value="dead on arrival"/>
+                <element inactive_on_update="false" label="Damaged" sequence="3" value="damaged"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="RMA Type" max_length="40" name="u_string_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Repair" sequence="0" value="repair"/>
+                <element inactive_on_update="false" label="Credit" sequence="1" value="credit"/>
+                <element inactive_on_update="false" label="Exchange" sequence="2" value="exchange"/>
+                <element inactive_on_update="false" label="Advance Exchange" sequence="3" value="advance exchange"/>
+                <element inactive_on_update="false" label="Refund" sequence="4" value="refund"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="new" label="State" max_length="40" name="u_string_7" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in progress"/>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="on hold"/>
+                <element inactive_on_update="false" label="Resolved" sequence="3" value="resolved"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="cancelled"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_reference_3"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_10"/>
+        </index>
+        <index name="index4">
+            <element name="u_reference_11"/>
+        </index>
+        <index name="index5">
+            <element name="u_reference_12"/>
+        </index>
+        <index name="index6">
+            <element name="u_reference_9"/>
+        </index>
+    </element>
+</database>

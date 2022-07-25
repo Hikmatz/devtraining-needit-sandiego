@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Hardware Asset Import" max_length="40" name="x_58872_needit_hardware_asset_import" sizeclass="1" type="collection">
+        <element attributes="import_attribute_name=Asset tag" label="Asset tag" max_length="40" name="u_asset_tag" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assigned to" label="Assigned to" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Comments" label="Comments" max_length="40" name="u_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Department" label="Department" max_length="40" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Location" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model" label="Model" max_length="40" name="u_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model Category" label="Model Category" max_length="40" name="u_model_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Serial number" label="Serial number" max_length="40" name="u_serial_number" type="string"/>
+    </element>
+</database>

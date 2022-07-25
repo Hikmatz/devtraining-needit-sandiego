@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Stockroom Shelf" max_length="40" name="x_58872_needit_stockroom_shelf" sizeclass="2" type="collection">
+        <element attributes="encode_utf8=false" label="Stockroom" mandatory="true" max_length="32" name="u_reference_2" reference="alm_stockroom" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Shelf" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+        <index name="index">
+            <element name="u_reference_2"/>
+        </index>
+    </element>
+</database>
